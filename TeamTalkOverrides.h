@@ -1,7 +1,8 @@
 #import <Foundation/Foundation.h>
 
-@interface MessageWrapper : NSObject
+@interface TeamTalkOverrides : NSObject
 
++ (void)load;
 - (id)initWithMessageDataNew:(id)msgRsp;
 
 @end

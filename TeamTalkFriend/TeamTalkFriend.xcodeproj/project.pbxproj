@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4D8F031C62F17100F0010A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4D8F021C62F17000F0010A /* AppDelegate.m */; };
+		DC4D8F061C62F17100F0010A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4D8F051C62F17100F0010A /* main.m */; };
+		DC4D8F081C62F17100F0010A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4D8F071C62F17100F0010A /* Assets.xcassets */; };
+		DC4D8F0B1C62F17100F0010A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4D8F091C62F17100F0010A /* MainMenu.xib */; };
+		DC4D8F131C62F41200F0010A /* TeamTalkOverrides.dylib in Resources */ = {isa = PBXBuildFile; fileRef = DC4D8F121C62F41200F0010A /* TeamTalkOverrides.dylib */; };
+		DC4D8F161C62F47000F0010A /* TeamTalkLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4D8F151C62F47000F0010A /* TeamTalkLauncher.m */; };
+		DC4D8F1F1C63067900F0010A /* RemoteCommander.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4D8F1D1C63066400F0010A /* RemoteCommander.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC4D8EFE1C62F17000F0010A /* TeamTalkFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamTalkFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4D8F011C62F17000F0010A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC4D8F021C62F17000F0010A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC4D8F051C62F17100F0010A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC4D8F071C62F17100F0010A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4D8F0A1C62F17100F0010A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DC4D8F0C1C62F17100F0010A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4D8F121C62F41200F0010A /* TeamTalkOverrides.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = TeamTalkOverrides.dylib; path = ../TeamTalkOverrides.dylib; sourceTree = "<group>"; };
+		DC4D8F141C62F46000F0010A /* TeamTalkLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTalkLauncher.h; sourceTree = "<group>"; };
+		DC4D8F151C62F47000F0010A /* TeamTalkLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTalkLauncher.m; sourceTree = "<group>"; };
+		DC4D8F1D1C63066400F0010A /* RemoteCommander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteCommander.m; sourceTree = "<group>"; };
+		DC4D8F201C63069D00F0010A /* RemoteCommander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteCommander.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4D8EFB1C62F17000F0010A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4D8EF51C62F17000F0010A = {
+			isa = PBXGroup;
+			children = (
+				DC4D8F121C62F41200F0010A /* TeamTalkOverrides.dylib */,
+				DC4D8F001C62F17000F0010A /* TeamTalkFriend */,
+				DC4D8EFF1C62F17000F0010A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4D8EFF1C62F17000F0010A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D8EFE1C62F17000F0010A /* TeamTalkFriend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4D8F001C62F17000F0010A /* TeamTalkFriend */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D8F011C62F17000F0010A /* AppDelegate.h */,
+				DC4D8F021C62F17000F0010A /* AppDelegate.m */,
+				DC4D8F071C62F17100F0010A /* Assets.xcassets */,
+				DC4D8F091C62F17100F0010A /* MainMenu.xib */,
+				DC4D8F0C1C62F17100F0010A /* Info.plist */,
+				DC4D8F041C62F17100F0010A /* Supporting Files */,
+				DC4D8F141C62F46000F0010A /* TeamTalkLauncher.h */,
+				DC4D8F151C62F47000F0010A /* TeamTalkLauncher.m */,
+				DC4D8F201C63069D00F0010A /* RemoteCommander.h */,
+				DC4D8F1D1C63066400F0010A /* RemoteCommander.m */,
+			);
+			path = TeamTalkFriend;
+			sourceTree = "<group>";
+		};
+		DC4D8F041C62F17100F0010A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D8F051C62F17100F0010A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4D8EFD1C62F17000F0010A /* TeamTalkFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4D8F0F1C62F17100F0010A /* Build configuration list for PBXNativeTarget "TeamTalkFriend" */;
+			buildPhases = (
+				DC4D8EFA1C62F17000F0010A /* Sources */,
+				DC4D8EFB1C62F17000F0010A /* Frameworks */,
+				DC4D8EFC1C62F17000F0010A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamTalkFriend;
+			productName = TeamTalkFriend;
+			productReference = DC4D8EFE1C62F17000F0010A /* TeamTalkFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4D8EF61C62F17000F0010A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dianyong Zheng";
+				TargetAttributes = {
+					DC4D8EFD1C62F17000F0010A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DC4D8EF91C62F17000F0010A /* Build configuration list for PBXProject "TeamTalkFriend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4D8EF51C62F17000F0010A;
+			productRefGroup = DC4D8EFF1C62F17000F0010A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4D8EFD1C62F17000F0010A /* TeamTalkFriend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4D8EFC1C62F17000F0010A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4D8F131C62F41200F0010A /* TeamTalkOverrides.dylib in Resources */,
+				DC4D8F081C62F17100F0010A /* Assets.xcassets in Resources */,
+				DC4D8F0B1C62F17100F0010A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4D8EFA1C62F17000F0010A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4D8F061C62F17100F0010A /* main.m in Sources */,
+				DC4D8F161C62F47000F0010A /* TeamTalkLauncher.m in Sources */,
+				DC4D8F1F1C63067900F0010A /* RemoteCommander.m in Sources */,
+				DC4D8F031C62F17100F0010A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC4D8F091C62F17100F0010A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4D8F0A1C62F17100F0010A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4D8F0D1C62F17100F0010A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC4D8F0E1C62F17100F0010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC4D8F101C62F17100F0010A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TeamTalkFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.missz.TeamTalkFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC4D8F111C62F17100F0010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TeamTalkFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.missz.TeamTalkFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4D8EF91C62F17000F0010A /* Build configuration list for PBXProject "TeamTalkFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4D8F0D1C62F17100F0010A /* Debug */,
+				DC4D8F0E1C62F17100F0010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4D8F0F1C62F17100F0010A /* Build configuration list for PBXNativeTarget "TeamTalkFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4D8F101C62F17100F0010A /* Debug */,
+				DC4D8F111C62F17100F0010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4D8EF61C62F17000F0010A /* Project object */;
+}
